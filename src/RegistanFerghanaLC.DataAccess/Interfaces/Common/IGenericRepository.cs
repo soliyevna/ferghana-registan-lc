@@ -7,6 +7,6 @@ namespace RegistanFerghanaLC.DataAccess.Interfaces.Common
     {
         public IQueryable<T> GetAll();
 
-        public IQueryable<T> Where(Expression<Func<T, bool>> predicate);
+        public IQueryable<T> Where(Expression<Func<T, bool>> expression);
     }
 }
